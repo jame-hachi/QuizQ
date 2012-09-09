@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="welcome">%sへようこそ!</string>
+	<string name="add">かっこイイネ！　を追加する</string>
+	
+	<string name="plus_project">クイズ　質問　を追加する！</string>
+	<string name="question">クイズ！　or 質問！</string>
+	
+	
+	<string name="intro_mes1">これはみんな知ってるだろ～\n
+							  　これ,みんな知ってるかな？\n
+							  暇だーーーー！\n
+							 　 そんなこと多々ありませんか？\n\n1/10</string>
+	
+	<string name="intro_mes2">このアプリはみんなでクイズを作り\n
+							　 シェアするアプリです。\n\n\n2/10</string>
+							
+	<string name="intro_mes3">暇なときに、みんなのクイズに答えて\n
+							 ちょっとした時間の暇つぶしもできます\n\n3/10</string>
+	
+	<string name="intro_mes4">クイズは気軽に作って\nみんなに見せられます\n\n4/10</string>
+							 
+							 
+	<string name="intro_mes5">クイズに答えてポイントをゲット\nすることもできます。\n\n5/10</string>
+	
+	<string name="intro_mes6">質問や回答をツイッター上で\nつぶやくこともできます\n\n6/10</string>
+							 
+	<string name="intro_mes7">答えがわからない質問をみんなに答えてもらうことも
+							  できます。\n\n7/10</string>
+	
+	<string name="intro_mes8"> &amp; でクイズにジャンルを\nつけたりできます\n\n8/10</string>
+		 					  
+	<string name="intro_mes9"> $ でコミュニティに関連付けられます\n\n9/10</string>
+	
+	<string name="intro_mes10">クイズに答えてランキングトップを目指しましょう！\n\n10/10</string>
+							 
+	<string name="intro_mes11">かっこイイね！はもしかしたら\n
+		 					 いろいろな場面でつかえるように\n
+		 					 なるかもしれません。\n\n11/12</string>
+		 					 
+	<string name="intro_mes12">やりたいことが達成したら\n
+							　SNSで共有してみるといいかも\n\n12/12</string>
+						
+	<string name="intro_mes13">最後にあなたの成功を心より\n
+							 応援します！\n\n説明画面は「メニューボタン」の\n
+							 設定で表示しないようにできます。</string>
+							 
+							  
+</resources>

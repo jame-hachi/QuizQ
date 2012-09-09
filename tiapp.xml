@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="ti.android.runtime">v8</property>
+    <property name="acs-oauth-secret-production" type="string">klortVoPmCdE6WtqQjJfGfZsijWSH9DT</property>
+    <property name="acs-oauth-key-production" type="string">AqUPnCkrzk7iHb1sf5DVkboAjlIzpMQD</property>
+    <property name="acs-api-key-production" type="string">BfoWoMRclEOytZr6rb7rilmjBugpXtvm</property>
+    <property name="acs-oauth-secret-development" type="string">klortVoPmCdE6WtqQjJfGfZsijWSH9DT</property>
+    <property name="acs-oauth-key-development" type="string">AqUPnCkrzk7iHb1sf5DVkboAjlIzpMQD</property>
+    <property name="acs-api-key-development" type="string">BfoWoMRclEOytZr6rb7rilmjBugpXtvm</property>
+    <deployment-targets>
+        <target device="mobileweb">true</target>
+        <target device="iphone">true</target>
+        <target device="ipad">true</target>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>2.1.1.GA</sdk-version>
+    <id>xicolo.app</id>
+    <name>xicolo    Quiz</name>
+    <version>1.0</version>
+    <publisher>fvi@</publisher>
+    <url>http://xicolo.com/wordpress</url>
+    <description>iOS implemented</description>
+    <copyright>2012 by xicolo</copyright>
+    <icon>xicolo.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>c024aca8-1e03-4020-9866-e0ded4891dd6</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <manifest android:installLocation="auto">
+            <supports-screens android:anyDensity="false"/>
+            <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+        </manifest>
+    </android>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs" version="2.1.0">ti.cloud</module>
+    </modules>
+</ti:app>
