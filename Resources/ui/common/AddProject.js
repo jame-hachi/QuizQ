@@ -5,6 +5,7 @@
  *
  */
 
+//STUB ADD
 exports.AddProject = function() {
 	height = Ti.Platform.displayCaps.platformHeight, width = Ti.Platform.displayCaps.platformWidth;
 	var win = Titanium.UI.createWindow({
